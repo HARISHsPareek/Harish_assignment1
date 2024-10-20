@@ -37,24 +37,27 @@ This project is a 3-tier rule engine application designed to determine user elig
 ### 1. Clone the Repository
 
 
-git clone https://github.com/HARISHsPareek/Harish_assignment1
+git clone https://github.com/HARISHsPareek/Harish_assignment1 
 
 ### 2. change the directory
 
-cd rule-engine
+`cd rule-engine`
 
 
 ### 3. Install Dependencies 
   ### 3.1 Backend
 
-cd server
-npm install
+`cd server`
+
+`npm install`
 
   ### 3.2 Frontend
 
-cd ..
-cd frontend
-npm install
+`cd ..`
+
+`cd frontend`
+
+`npm install`
         
 
 
@@ -70,16 +73,20 @@ MONGO_URI="your_mongodb_connection_string"
 ### 5. Run the Backend Server
 Navigate to the server directory and run the backend server:
 
-cd ..
-cd server
-node server.js
+`cd ..`
+
+`cd server`
+
+`node server.js`
 
 ### 5. Run the Frontend Application
 Navigate to the client directory and start the React frontend:
 
-cd ..
-cd frontend
-npm run dev
+`cd ..`
+
+`cd frontend`
+
+`npm run dev`
 
 
 # To use Docker-compose file:
@@ -88,6 +95,3 @@ npm run dev
 
 Insert gif or link to demo
 
-
-## 🚀 About Me
-I'm a full stack developer...
