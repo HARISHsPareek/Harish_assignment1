@@ -12,12 +12,12 @@ This project is a 3-tier rule engine application designed to determine user elig
 - Responsive UI: Simple and clean user interface.
 
 ## Technologies Used
-- *Backend*: Node.js, Express.js, MongoDB, Mongoose
-- *Frontend*: React.js
-- *Authentication*: JWT (JSON Web Tokens)
-- *Database*: MongoDB (using Mongoose ODM)
-- *API Testing*: Postman
-- *Environment*: Docker (optional)
+- Backend: Node.js, Express.js, MongoDB, Mongoose
+- Frontend: React.js
+- Authentication: JWT (JSON Web Tokens)
+- Database: MongoDB (using Mongoose ODM)
+- API Testing: Postman
+- Environment: Docker (optional)
 
 ---
 
@@ -37,27 +37,27 @@ This project is a 3-tier rule engine application designed to determine user elig
 ### 1. Clone the Repository
 
 
-git clone https://github.com/HARISHsPareek/Harish_assignment1 
+    git clone https://github.com/HARISHsPareek/Harish_assignment1 
 
 ### 2. change the directory
 
-`cd rule-engine`
+    cd rule-engine
 
 
 ### 3. Install Dependencies 
   ### 3.1 Backend
 
-`cd server`
+    cd server
 
-`npm install`
+    npm install
 
   ### 3.2 Frontend
 
-`cd ..`
+    cd ..
 
-`cd frontend`
+    cd frontend
 
-`npm install`
+    npm install
         
 
 
@@ -65,33 +65,29 @@ git clone https://github.com/HARISHsPareek/Harish_assignment1
 Create a .env file in the server directory and add the following variables:
 
 
-PORT=5000
-JWT_SECRET="your_jwt_secret"
-MONGO_URI="your_mongodb_connection_string"
+    PORT=5000
+    JWT_SECRET="your_jwt_secret"
+    MONGO_URI="your_mongodb_connection_string"
 
 
 ### 5. Run the Backend Server
 Navigate to the server directory and run the backend server:
 
-`cd ..`
+    cd ..
 
-`cd server`
+    cd server
 
-`node server.js`
+    node server.js
 
 ### 5. Run the Frontend Application
 Navigate to the client directory and start the React frontend:
 
-`cd ..`
+    cd ..
 
-`cd frontend`
+    cd frontend
 
-`npm run dev`
+    npm run dev
 
 
 # To use Docker-compose file:
     docker-compose up --build
-## Demo
-
-Insert gif or link to demo
-
